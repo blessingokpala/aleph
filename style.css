@@ -1,0 +1,487 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+p {
+  font-size: 1.1rem;
+}
+.fixed-top {
+  background: linear-gradient(
+    to right,
+    #110218,
+    #021225,
+    #000702,
+    #001106
+  ); /* linear-gradient(to right, #023e8a, #1b7b3d); */
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+.navUl {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+.nav-aleph {
+  text-decoration: none;
+  padding: 10px 15px;
+  color: #fff;
+  font-size: 1.1rem;
+}
+#hamburger {
+  border: 0;
+  font-size: 30px;
+  color: #ffffff;
+  background-color: transparent;
+  cursor: pointer;
+  display: none;
+}
+#hamburger:focus {
+  outline: none;
+}
+.nav-aleph:hover {
+  color: #05802e;
+}
+.fixed-top h1 {
+  color: #fff;
+  font-size: 4.5rem;
+  margin-left: 30px;
+  font-family: Playfair;
+  font-weight: bold;
+}
+.fixed-top img {
+  height: 85px;
+  width: 85px;
+  margin-left: 30px;
+  padding-top: 4px;
+  padding-bottom: 8px;
+}
+.hero {
+  height: 96vh;
+}
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* for overlay on the background image */
+.hero::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 96vh;
+  margin-top: 80px;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 1;
+}
+.hero h4 {
+  color: #fff;
+  margin-top: -500px;
+  margin-left: 30px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 800;
+  font-size: 3.5rem;
+  z-index: 3;
+  position: absolute;
+}
+.hero p {
+  color: #fff;
+  margin-top: -400px;
+  margin-left: 30px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+  z-index: 3;
+  position: absolute;
+}
+/* for type effect on hero section */
+#typeEffect::after {
+  content: "";
+  width: 4px;
+  height: 100%;
+  border-right: 3px solid white;
+  animation: blink 0.5s infinite ease;
+}
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.intro {
+  height: 200px;
+  margin-top: -6px;
+}
+#aboutus .intro {
+  background: linear-gradient(to right, #110218, #021225, #000702, #001106);
+}
+#services .intro {
+  background: linear-gradient(to right, #033814, #7e2071, #031d3b, #855b85);
+}
+#platforms .intro {
+  background: linear-gradient(to left, #031d3b, #804a05, #033814);
+}
+#technologies .intro {
+  background: linear-gradient(to left, #fdc500, #6e4949, #033814);
+}
+#portfolio .intro {
+  background: linear-gradient(to left, #03043b, #05802e, #033814);
+}
+#contact .intro {
+  background: linear-gradient(to left, #0098fd, #6a496e, #033838);
+}
+.intro h2 {
+  color: #fff;
+  padding-top: 85px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2.5rem;
+}
+#aboutus_writeups p {
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: justify;
+}
+h2 {
+  text-align: center;
+}
+
+#aboutus_writeups h2 {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+#aboutus_writeups h4 {
+  margin-left: 50px;
+}
+hr {
+  border: dotted;
+  color: #011146;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+#services p {
+  margin-top: 40px;
+}
+#services .overflow-hidden {
+  padding-top: 50px;
+  background: linear-gradient(to left, #ece8e2, #e0e7e2);
+}
+.icon {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+#platforms {
+  background: linear-gradient(to right, #e2e5ec, #ddd1c3, #e2e5ec);
+}
+.techsicons img {
+  margin-left: 200px;
+  margin-bottom: 50px;
+}
+.col-6 {
+  padding-top: 50px;
+}
+#platforms img {
+  margin-left: 200px;
+  margin-bottom: 50px;
+}
+
+.card {
+  margin-bottom: 50px;
+}
+
+footer .navbar {
+  background: #020f36;
+  margin-top: 20px;
+}
+footer ul li {
+  padding-top: 50px;
+  margin: auto;
+}
+footer .navbar-brand {
+  font-size: 1rem;
+  color: #fff;
+}
+/* bigger devices Small screens, laptops. */
+@media (max-width: 1199.98px) {
+  .hero {
+    height: 96vh;
+  }
+  video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  /* for overlay on the background image */
+  .hero::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 96vh;
+    margin-top: 80px;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 1;
+  }
+
+  #aboutus .intro {
+    margin-top: -10px;
+  }
+  .fixed-top img {
+    height: 80px;
+    width: 80px;
+    margin-left: 20px;
+  }
+  .fixed-top {
+    padding-bottom: 90px;
+  }
+  .nav-aleph {
+    font-size: 1rem;
+    margin-right: 1px;
+  }
+  #platforms img {
+    margin-left: 130px;
+    margin-bottom: 20px;
+  }
+  .techsicons img {
+    margin-left: 120px;
+    margin-bottom: 20px;
+  }
+  .hero p {
+    margin-top: -350px;
+    color: #fff;
+    z-index: 3;
+  }
+}
+/* bigger devices (landscape tablets, ipad, less than 992px) */
+@media (max-width: 992px) {
+  .hero {
+    height: 96vh;
+  }
+  video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  /* for overlay on the background image */
+  .hero::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 96vh;
+    margin-top: 80px;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 1;
+  }
+
+  #aboutus .intro {
+    margin-top: -10px;
+  }
+  .fixed-top img {
+    height: 70px;
+    width: 70px;
+    margin-left: 10px;
+    margin-right: 3px;
+    margin-top: 7px;
+  }
+  .nav-aleph {
+    font-size: 0.69rem;
+    margin-top: -50px;
+  }
+  .hero h4 {
+    font-size: 2.5rem;
+  }
+  .hero p {
+    margin-top: -380px;
+    color: #fff;
+    z-index: 3;
+  }
+  h2 {
+    font-size: 1.8rem;
+  }
+  #platforms img {
+    margin-left: 100px;
+    margin-bottom: 20px;
+  }
+  .techsicons img {
+    margin-left: 60px;
+    margin-bottom: 20px;
+  }
+
+  .intro h2 {
+    font-size: 2.5rem;
+  }
+  #contact form {
+    margin-left: 5px;
+  }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767px) {
+  .fixed-top img {
+    height: 80px;
+    width: 80px;
+  }
+
+  .fixed-top .nav-aleph {
+    font-size: 1.2rem;
+    flex-direction: column;
+  }
+  .navUl {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    line-height: 3.5rem;
+    padding: 60px;
+    width: 100%;
+    right: -800px;
+    height: 100vh;
+    align-items: center;
+    position: absolute;
+    background-color: rgba(15, 15, 15, 1);
+  }
+  .change {
+    right: 0;
+  }
+  #hamburger {
+    display: block;
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-right: 20px;
+  }
+  .hero {
+    height: 96vh;
+  }
+  video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  /* for overlay on the background image */
+  .hero::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 96vh;
+    margin-top: 80px;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 1;
+  }
+
+  #aboutus .intro {
+    margin-top: -5px;
+  }
+  #platforms img {
+    margin-left: 50px;
+    margin-bottom: 50px;
+  }
+  .techsicons img {
+    height: 140px;
+    width: 140px;
+    margin-bottom: 20px;
+  }
+  #portfolio .row {
+    margin-top: 5px;
+  }
+  footer .navbar-brand {
+    font-size: 13px;
+  }
+  .hero h4 {
+    font-size: 2rem;
+  }
+  .hero p {
+    margin-top: -380px;
+    color: #fff;
+    z-index: 3;
+    font-size: 1.4rem;
+  }
+  #contact form {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 575px) {
+  .fixed-top img {
+    height: 80px;
+    width: 80px;
+    margin-left: 20px;
+  }
+  .fixed-top .nav-aleph {
+    font-size: 1.2rem;
+    flex-direction: column;
+  }
+
+  #hamburger {
+    display: block;
+    margin-top: 30px;
+    margin-left: 180px;
+  }
+  .navUl {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    line-height: 3.5rem;
+    padding: 60px;
+    width: 100%;
+    right: -800px;
+    height: 100vh;
+    align-items: center;
+    position: absolute;
+    background-color: rgba(15, 15, 15, 1);
+  }
+  .change {
+    right: 0;
+  }
+  .hero {
+    height: 96vh;
+  }
+  video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  /* for overlay on the background image */
+  .hero::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 96vh;
+    margin-top: 80px;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 1;
+  }
+
+  #aboutus .intro {
+    margin-top: -5px;
+  }
+  #contact form {
+    padding-top: 20px;
+    margin-left: 5px;
+  }
+  .intro h2 {
+    font-size: 1.8rem;
+    margin: auto;
+  }
+  #platforms img {
+    margin: 5px;
+    margin-bottom: 40px;
+  }
+  .techsicons img {
+    margin: 5px;
+    margin-bottom: 20px;
+  }
+  #portfolio .row {
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: 5px;
+  }
+  #services .container {
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+}
