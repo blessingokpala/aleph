@@ -20,7 +20,6 @@ p {
 }
 #hamburger {
   border: 0;
-  font-size: 30px;
   color: #ffffff;
   background-color: transparent;
   cursor: pointer;
@@ -350,9 +349,8 @@ footer .navbar-brand {
   }
   #hamburger {
     display: block;
-    margin-top: 30px;
-    margin-left: 80px;
-    margin-right: 20px;
+    margin-top: 50px;
+    margin-right: 100px;
   }
   .hero {
     height: 96vh;
@@ -416,9 +414,8 @@ footer .navbar-brand {
   }
   #hamburger {
     display: block;
-    margin-top: 30px;
-    margin-left: 80px;
-    margin-right: 20px;
+    margin-top: 50px;
+    margin-right: 100px;
   }
   .navUl {
     list-style: none;
