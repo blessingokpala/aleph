@@ -19,7 +19,15 @@ p {
   justify-content: space-between;
 }
 #hamburger {
+  border: 0;
+  font-size: 30px;
+  color: #ffffff;
+  background-color: transparent;
+  cursor: pointer;
   display: none;
+}
+#hamburger:focus {
+  outline: none;
 }
 .navUl {
   list-style: none;
@@ -345,14 +353,6 @@ footer .navbar-brand {
     margin-top: 30px;
     margin-left: 80px;
     margin-right: 20px;
-    border: 0;
-    font-size: 30px;
-    color: #ffffff;
-    background-color: transparent;
-    cursor: pointer;
-  }
-  #hamburger:focus {
-    outline: none;
   }
   .hero {
     height: 96vh;
@@ -419,14 +419,6 @@ footer .navbar-brand {
     margin-top: 30px;
     margin-left: 80px;
     margin-right: 20px;
-    border: 0;
-    font-size: 30px;
-    color: #ffffff;
-    background-color: transparent;
-    cursor: pointer;
-  }
-  #hamburger:focus {
-    outline: none;
   }
   .navUl {
     list-style: none;
