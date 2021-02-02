@@ -30,17 +30,6 @@ p {
   color: #fff;
   font-size: 1.1rem;
 }
-#hamburger {
-  border: 0;
-  font-size: 30px;
-  color: #ffffff;
-  background-color: transparent;
-  cursor: pointer;
-  display: none;
-}
-#hamburger:focus {
-  outline: none;
-}
 .nav-aleph:hover {
   color: #05802e;
 }
@@ -353,6 +342,14 @@ footer .navbar-brand {
     margin-top: 30px;
     margin-left: 80px;
     margin-right: 20px;
+    border: 0;
+    font-size: 30px;
+    color: #ffffff;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  #hamburger:focus {
+    outline: none;
   }
   .hero {
     height: 96vh;
@@ -414,11 +411,19 @@ footer .navbar-brand {
     font-size: 1.2rem;
     flex-direction: column;
   }
-
   #hamburger {
     display: block;
     margin-top: 30px;
-    margin-left: 180px;
+    margin-left: 80px;
+    margin-right: 20px;
+    border: 0;
+    font-size: 30px;
+    color: #ffffff;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  #hamburger:focus {
+    outline: none;
   }
   .navUl {
     list-style: none;
