@@ -253,7 +253,6 @@ footer .navbar-brand {
   .hero p {
     margin-top: -350px;
     color: #fff;
-    z-index: 3;
   }
 }
 /* bigger devices (landscape tablets, ipad, less than 992px) */
@@ -324,7 +323,7 @@ footer .navbar-brand {
   .fixed-top img {
     height: 80px;
     width: 80px;
-    margin-left: 150px;
+    margin-left: 30px;
   }
 
   .fixed-top .nav-aleph {
@@ -351,8 +350,7 @@ footer .navbar-brand {
   #hamburger {
     display: block;
     margin-top: 50px;
-    margin-right: 200px;
-    z-index: 3;
+    margin-right: 250px;
   }
   .hero {
     height: 96vh;
@@ -408,7 +406,7 @@ footer .navbar-brand {
   .fixed-top img {
     height: 80px;
     width: 80px;
-    margin-left: 100px;
+    margin-left: 30px;
   }
   .fixed-top .nav-aleph {
     font-size: 1.2rem;
@@ -417,8 +415,7 @@ footer .navbar-brand {
   #hamburger {
     display: block;
     margin-top: 50px;
-    margin-right: 150px;
-    z-index: 3;
+    margin-right: 250px;
   }
   .navUl {
     list-style: none;

@@ -15,7 +15,7 @@
 <body>
 <!--Navbar-->
 <nav class="fixed-top">
-  <a href="/"><img src="./alephlogo.png" alt="aleph logo"/></a>
+  <a href="#home"><img src="./alephlogo.png" alt="aleph logo"/></a>
   <button class="hamburger" id="hamburger">
     <i class="fas fa-bars"></i>
   </button>
@@ -42,10 +42,11 @@
       <a class="nav-aleph" href="#contact">CONTACT US</a>
     </li>
   </ul>
-</nav>
+</nav> 
 
 <div id="home" class="hero">
-    <video src="./vid.mp4" loop muted autoplay></video> 
+    <video autoplay loop autobuffer muted playsinline>
+      <source src="./vid.mp4" type="video/mp4"></video> 
     <!-- for type effect on hero section -->
       <div>
       <h4 id="typeEffect"></h4>
