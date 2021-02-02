@@ -18,6 +18,9 @@ p {
   display: flex;
   justify-content: space-between;
 }
+#hamburger {
+  display: none;
+}
 .navUl {
   list-style: none;
   display: flex;
