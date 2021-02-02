@@ -14,9 +14,10 @@ const hamburger = document.querySelector('.hamburger');
 const navUl = document.querySelector('.navUl');
 
 hamburger.addEventListener('click', () => {
-  navUl.classList.toggle('change');
+  navUl.classList.toggle('show');
 });
 
 navUl.addEventListener('click', () => {
-  navUl.classList.toggle('change');
+  navUl.classList.toggle('show');
 });
+

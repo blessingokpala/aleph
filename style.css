@@ -20,11 +20,15 @@ p {
 }
 #hamburger {
   border: 0;
+  height: 50px;
+  width: 50px;
   color: #ffffff;
+  margin-bottom: 500px;
   background-color: transparent;
   cursor: pointer;
   display: none;
 }
+
 #hamburger:focus {
   outline: none;
 }
@@ -344,13 +348,14 @@ footer .navbar-brand {
     position: absolute;
     background-color: rgba(15, 15, 15, 1);
   }
-  .change {
+  .show {
     right: 0;
   }
   #hamburger {
     display: block;
-    margin-top: 50px;
-    margin-right: 250px;
+    margin-top: 25px;
+    margin-right: 50px;
+    font-size: 1.5rem;
   }
   .hero {
     height: 96vh;
@@ -412,11 +417,6 @@ footer .navbar-brand {
     font-size: 1.2rem;
     flex-direction: column;
   }
-  #hamburger {
-    display: block;
-    margin-top: 50px;
-    margin-right: 250px;
-  }
   .navUl {
     list-style: none;
     display: flex;
@@ -431,7 +431,7 @@ footer .navbar-brand {
     position: absolute;
     background-color: rgba(15, 15, 15, 1);
   }
-  .change {
+  .show {
     right: 0;
   }
   .hero {
